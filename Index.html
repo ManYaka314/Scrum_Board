@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+
+    <link rel="stylesheet" href="style/style.css" type="text/css"/>
+    
+    <!-- Для работы React -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.development.js"></script>
+    
+    <!-- Для работы JSX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+  </head>
+  <body>
+    <div class="top">
+        <div class="left">Scrum Board</div>
+        <div class="right">
+            <div class="remaining">
+                <div class="clock_img"><img src="img/clock.png" alt="tickTock"></div>
+                <div class="remaining_text">7 days remaining</div>
+            </div>
+            <div class="sprint">Complete Sprint</div>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="middle_content">
+            <div class="middle_title">QUICK FILTERS:</div>
+            <div class="filters">
+                <div class="filter">Product</div>
+                <div class="filter">UI</div>
+                <div class="filter">Server</div>
+                <div class="filter">Only My Issues</div>
+                <div class="filter">Recently Updated</div>
+            </div>
+        </div>
+        <hr>    
+    </div>
+    <div id="root"></div>
+
+    <script type="text/babel" src="script/list-item.jsx">
+      import ListItem
+    </script>  
+
+    <script type="text/babel" src="script/list.jsx">
+      import List
+    </script>  
+
+    <script type="text/babel" src="script/header.jsx">
+      import Header
+    </script> 
+
+    <script type="text/babel" src="script/wrapper.jsx">
+      import Wrapper
+    </script>  
+      
+    <script type="text/babel" src="script/app.jsx"></script>
+  </body>
+</html>
