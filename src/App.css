@@ -1,0 +1,99 @@
+.RenderComp {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.Wrapper {
+  padding-right: 20px;
+}
+
+.Header {
+  padding-bottom: 20px;
+  font-size: 15pt;
+}
+
+.List {
+  background: #F5F5F5;
+  padding-bottom: 100px;
+}
+
+.ListItem {
+  display: flex;
+  background: #ffffff;
+  border: solid;
+  border-color: #DBDBDB #DBDBDB #DBDBDB #50b238;
+  border-width: 1px 1px 1px 8px;
+}
+
+.ItemLeftBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.ItemMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ItemRightBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  
+}
+
+.LeftTop {
+  display: flex;
+}
+
+.ItemHeader {
+  color: #385167;
+  padding-top: 17px;
+}
+
+.LeftPicTop {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.LeftPicBott {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+}
+
+.ItemContent {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.ItemLocation {  
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+  border: solid white;
+  background-color: #D53C34;
+  color: white;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.ItemCount {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+  border: solid white;
+  background-color: #E8E8E8;
+  border-radius: 15px; 
+  width: 50%;
+}
+
+
+
